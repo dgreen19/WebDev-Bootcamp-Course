@@ -1,12 +1,33 @@
 h1{
-  color: #000000;
+  color: rgb(0, 33, 255);
+  /*border-color: purple;
+  border-width: 5px;
+  border-style: solid;*/
+
+  border: 5px solid purple;
 
 }
 
-li{
-  color: #4B0082;
+h2{
+  color: #4F0082;
+}
+
+h3{
+  color: #500c0c;
 }
 
 h4{
-  color: #FF1493;
+  background: rgb(230, 118, 33);
+}
+
+body{
+  background: pink;
+  /*background: url(https://www.rollingstone.com/wp-content/uploads/2018/06/infinitywar5ac2dbc3bff5c-b4fb4719-f78d-454a-b316-05d11f76e65d.jpg?crop=900:600&width=440);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+li{
+  color: rgb(26, 9, 226);
+  backgorund: rgb(9, 255, 0);
 }
