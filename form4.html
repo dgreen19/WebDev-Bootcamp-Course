@@ -1,38 +1,64 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Forms Demo</title>
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>Login</h1>
+	<h1>Login</h1>
 
-<!-- action - where the form sends data to -->
-<!-- method - what HTTP method to use (get/post) -->
+	<!-- action - where the form sends data to -->
+	<!-- method - what HTTP method to use (get/post) -->
 
-<!-- <form action="http://www.wikipedia.org">
+	<!-- <form action="http://www.wikipedia.org">
 	<label>
-		Username: 
+		Username:
 		<input name="username" type="text" placeholder="username">
 	</label>
 	<label>
 		Password:
 		<input name="password" type="password" placeholder="password">
 	</label>
-	
+
 	<input type="submit">
 </form> -->
 
 
-<form action="http://www.wikipedia.org">
-	<label for="user-email">Email:</label>
-	<input id="user-email" name="username" type="email" placeholder="email" required>
+	<form action="http://www.wikipedia.org">
+		<label for="user-email">Email:</label>
+		<input id="user-email" name="username" type="email" placeholder="email" required>
 
-	<label>Password:</label>
-	<input id="password" name="password" type="password" placeholder="password" required>
-	
-	<input type="submit">
-</form>
+		<label>Password:</label>
+		<input id="password" name="password" type="password" placeholder="password" required>
+		<a href="https://www.google.com/">Google</a>
+
+		<input type="submit">
+		<input type="checkbox" name="checkbox" value="checked">
+		<input type="checkbox" name="checkbox" value="checked">
+		<input type="checkbox" name="checkbox" value="checked">
+		<input type="checkbox" name="checkbox" value="checked">
+	</form>
+
+	<input type="radio" name="button" value="button">
+	<fieldset>
+		<legend>Customer information</legend>
+		<label>Name:
+			<input type="text" name="Name" id="Name">
+		</label>
+		<label>Email:
+			<input type="text" name="Email" id="Email">
+		</label>
+	</fieldset>
+
+	<select class="" size="5" name="hello" multiple>
+
+	</select>
+
+	<textarea name="name" rows="8" cols="80"></textarea>
 
 </body>
+
 </html>
