@@ -1,15 +1,5 @@
-/*var userName = prompt("What is your name?");
-alert("Nice to meet you, " + userName);
-console.log("Also great to meet you, " + userName);*/
+//Practice exercises for learning Control Flow with if-else statements and loops in JS
 
-//var math = 20 % 3;
-/*var firstName = prompt("What is your first name?");
-var lastName = prompt("What is your last name?");
-var yourAge = prompt("How old are you?");
-var fullName =  firstName + " " + lastName;
-
-console.log("Hello " + fullName +  " it is nice to meet you!");
-console.log("You are " + yourAge + " years old");*/
 /*
 yourAge = prompt('How old are you?');
 //ageCalculation = yourAge * 365
@@ -79,6 +69,9 @@ while (num <= 333) {
   }
   num+=1;
 }*/
+
+
+alert('CONNECTED!');
 
 
 console.log("Prinnt all number between -10 and 19");
